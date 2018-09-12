@@ -1,0 +1,62 @@
+.navbar-inverse {
+    background-color: #1eb6d2;
+    border-color: #1eb6d2;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:white;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover  {
+    color: #fff;
+    background-color: #298fb1;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #298fb1;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #298fb1;
+}
+
+.mnt{
+  padding-right: 15px !important;
+  height: 50px;
+  line-height:50px;
+  margin:10px 0px 10px 0px;
+  background-color: #f2f2f2;
+}
+
+form-control button #excel {
+    background: url(../images/excel-icon.png) 0 0 no-repeat;
+    border:none;
+    text-indent:-999px;
+    width:50px;
+    height:50px;
+}
+
+.navbar-nav {
+  float:right !important;
+}
+/* table */
+table {border-collapse:collapse; margin:1em 0; width:100%; font-size:.9em;}
+caption {text-align:left; font-size:1.1em; padding-bottom:10px;}
+table td, table th {padding:5px; border:1px solid #fff; border-width:0 1px 1px 0;}
+thead th {text-align:left;font-size:12px; color:#274755; vertical-align:middle; padding:1em 0;}
+/*thead th[colspan], thead th[rowspan] {background:#ecf4f8; color:#4f7281;}*/
+tbody th, tfoot th {text-align:center; padding:.6em .4em .6em .4em; vertical-align:middle; /*color:#4f7281;*/}
+tbody td, tfoot td {text-align:center; padding:.6em .4em .6em .4em; vertical-align:middle;}
+/*tfoot th {background:#ecf4f8; color:#4f7281;}
+tfoot td {background:#d7e1c5; font-weight:bold;}*/
+tbody tr:nth-child(odd) {background-color: #fff;}
+th.o, td.o {text-align:center !important;}
+th.r, td.r {text-align:right;}
+th.l, td.l {text-align:left;}
+.t_30 {width:30%;}
+.t_40 {width:40%;}
+.t_50 {width:50%;}
+.t_60 {width:60%;}
+.t_70 {width:70%;}
+.t_80 {width:80%;}
+.t_90 {width:90%;}

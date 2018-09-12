@@ -1,0 +1,132 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>WireWorkbenchDataExport</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>
+                    <thead>
+                        <tr>
+                            <th class="sola">İli</th>
+                            <th class="sola">İlçesi</th>
+                            <th class="sola">Tarih</th>
+                            <th class="sola">En Düşük Sıc. (°C)</th>
+                            <th class="sola">En Yüksek Sıc. (°C)</th>
+                            <th class="sola">En Düşük Nem (%)</th>
+                            <th class="sola">En Yüksek Nem (%)</th>
+                            <th class="sola">Hadise</th>
+                            <th class="sola">Rüzgar Yön (°)</th>
+                            <th class="sola">Rüzgar Hız (km/sa)</th>
+                            
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                       
+
+                        <!-- ngRepeat: veri in tahminData | orderBy:sortType --><tr ng-repeat="veri in tahminData | orderBy:sortType" class="ng-scope">
+                            <td ng-bind="veri.istBilgi.il" class="ng-binding">Adana</td>                                                         
+                            <td ng-bind="veri.istBilgi.ilce" class="ng-binding">Feke</td>
+                            <td ng-bind="veri.data.tarih | meteorDateFormat " class="ng-binding">15 Haziran Perşembe</td>                            
+                            <td ng-bind="veri.data.enDusuk" class="ng-binding">15</td>
+                            <td ng-bind="veri.data.enYuksek" class="ng-binding">31</td>
+                            <td ng-bind="veri.data.enDusukNem" class="ng-binding">43</td>
+                            <td ng-bind="veri.data.enYuksekNem" class="ng-binding">92</td>
+                            <td><img ng-src="../images/hadiseler/PB.svg" title="Parçalı Bulutlu" src="../images/hadiseler/PB.svg"></td>
+                            <td title="185">
+                            <img ng-src="../images/ryon-gri.svg" ng-style="{'transform': 'rotate('+veri.data.ruzgarYon+'deg)'}" src="../images/ryon-gri.svg" style="transform: rotate(185deg);">
+                            </td>
+
+
+
+                            
+                            <td ng-bind="veri.data.ruzgarHiz" class="ng-binding">10</td>
+                           
+                        </tr><!-- end ngRepeat: veri in tahminData | orderBy:sortType --><tr ng-repeat="veri in tahminData | orderBy:sortType" class="ng-scope">
+                            <td ng-bind="veri.istBilgi.il" class="ng-binding">Adana</td>                                                         
+                            <td ng-bind="veri.istBilgi.ilce" class="ng-binding">Pozantı</td>
+                            <td ng-bind="veri.data.tarih | meteorDateFormat " class="ng-binding">15 Haziran Perşembe</td>                            
+                            <td ng-bind="veri.data.enDusuk" class="ng-binding">14</td>
+                            <td ng-bind="veri.data.enYuksek" class="ng-binding">30</td>
+                            <td ng-bind="veri.data.enDusukNem" class="ng-binding">42</td>
+                            <td ng-bind="veri.data.enYuksekNem" class="ng-binding">81</td>
+                            <td><img ng-src="../images/hadiseler/PB.svg" title="Parçalı Bulutlu" src="../images/hadiseler/PB.svg"></td>
+                            <td title="329">
+                            <img ng-src="../images/ryon-gri.svg" ng-style="{'transform': 'rotate('+veri.data.ruzgarYon+'deg)'}" src="../images/ryon-gri.svg" style="transform: rotate(329deg);">
+                            </td>
+
+
+
+                            
+                            <td ng-bind="veri.data.ruzgarHiz" class="ng-binding">8</td>
+                           
+                        </tr><!-- end ngRepeat: veri in tahminData | orderBy:sortType --><tr ng-repeat="veri in tahminData | orderBy:sortType" class="ng-scope">
+                            <td ng-bind="veri.istBilgi.il" class="ng-binding">Adana</td>                                                         
+                            <td ng-bind="veri.istBilgi.ilce" class="ng-binding">Kozan</td>
+                            <td ng-bind="veri.data.tarih | meteorDateFormat " class="ng-binding">15 Haziran Perşembe</td>                            
+                            <td ng-bind="veri.data.enDusuk" class="ng-binding">18</td>
+                            <td ng-bind="veri.data.enYuksek" class="ng-binding">33</td>
+                            <td ng-bind="veri.data.enDusukNem" class="ng-binding">50</td>
+                            <td ng-bind="veri.data.enYuksekNem" class="ng-binding">94</td>
+                            <td><img ng-src="../images/hadiseler/PB.svg" title="Parçalı Bulutlu" src="../images/hadiseler/PB.svg"></td>
+                            <td title="224">
+                            <img ng-src="../images/ryon-gri.svg" ng-style="{'transform': 'rotate('+veri.data.ruzgarYon+'deg)'}" src="../images/ryon-gri.svg" style="transform: rotate(224deg);">
+                            </td>
+
+
+
+                            
+                            <td ng-bind="veri.data.ruzgarHiz" class="ng-binding">7</td>
+                           
+                        </tr><!-- end ngRepeat: veri in tahminData | orderBy:sortType --><tr ng-repeat="veri in tahminData | orderBy:sortType" class="ng-scope">
+                            <td ng-bind="veri.istBilgi.il" class="ng-binding">Adana</td>                                                         
+                            <td ng-bind="veri.istBilgi.ilce" class="ng-binding">Saimbeyli</td>
+                            <td ng-bind="veri.data.tarih | meteorDateFormat " class="ng-binding">15 Haziran Perşembe</td>                            
+                            <td ng-bind="veri.data.enDusuk" class="ng-binding">14</td>
+                            <td ng-bind="veri.data.enYuksek" class="ng-binding">29</td>
+                            <td ng-bind="veri.data.enDusukNem" class="ng-binding">43</td>
+                            <td ng-bind="veri.data.enYuksekNem" class="ng-binding">96</td>
+                            <td><img ng-src="../images/hadiseler/PB.svg" title="Parçalı Bulutlu" src="../images/hadiseler/PB.svg"></td>
+                            <td title="317">
+                            <img ng-src="../images/ryon-gri.svg" ng-style="{'transform': 'rotate('+veri.data.ruzgarYon+'deg)'}" src="../images/ryon-gri.svg" style="transform: rotate(317deg);">
+                            </td>
+
+
+
+                            
+                            <td ng-bind="veri.data.ruzgarHiz" class="ng-binding">11</td>
+                           
+                        </tr><!-- end ngRepeat: veri in tahminData | orderBy:sortType --><tr ng-repeat="veri in tahminData | orderBy:sortType" class="ng-scope">
+                            <td ng-bind="veri.istBilgi.il" class="ng-binding">Adana</td>                                                         
+                            <td ng-bind="veri.istBilgi.ilce" class="ng-binding">Tufanbeyli</td>
+                            <td ng-bind="veri.data.tarih | meteorDateFormat " class="ng-binding">15 Haziran Perşembe</td>                            
+                            <td ng-bind="veri.data.enDusuk" class="ng-binding">8</td>
+                            <td ng-bind="veri.data.enYuksek" class="ng-binding">25</td>
+                            <td ng-bind="veri.data.enDusukNem" class="ng-binding">40</td>
+                            <td ng-bind="veri.data.enYuksekNem" class="ng-binding">93</td>
+                            <td><img ng-src="../images/hadiseler/PB.svg" title="Parçalı Bulutlu" src="../images/hadiseler/PB.svg"></td>
+                            <td title="310">
+                            <img ng-src="../images/ryon-gri.svg" ng-style="{'transform': 'rotate('+veri.data.ruzgarYon+'deg)'}" src="../images/ryon-gri.svg" style="transform: rotate(310deg);">
+                            </td>
+
+
+
+                            
+                            <td ng-bind="veri.data.ruzgarHiz" class="ng-binding">12</td>
+                           
+                        </tr><!-- end ngRepeat: veri in tahminData | orderBy:sortType --><tr ng-repeat="veri in tahminData | orderBy:sortType" class="ng-scope">
+                            <td ng-bind="veri.istBilgi.il" class="ng-binding">Adana</td>                                                         
+                            <td ng-bind="veri.istBilgi.ilce" class="ng-binding">İmamoğlu</td>
+                            <td ng-bind="veri.data.tarih | meteorDateFormat " class="ng-binding">15 Haziran Perşembe</td>                            
+                            <td ng-bind="veri.data.enDusuk" class="ng-binding">17</td>
+                            <td ng-bind="veri.data.enYuksek" class="ng-binding">32</td>
+                            <td ng-bind="veri.data.enDusukNem" class="ng-binding">50</td>
+                            <td ng-bind="veri.data.enYuksekNem" class="ng-binding">96</td>
+                            <td><img ng-src="../images/hadiseler/PB.svg" title="Parçalı Bulutlu" src="../images/hadiseler/PB.svg"></td>
+                            <td title="229">
+                            <img ng-src="../images/ryon-gri.svg" ng-style="{'transform': 'rotate('+veri.data.ruzgarYon+'deg)'}" src="../images/ryon-gri.svg" style="transform: rotate(229deg);">
+                            </td>
+
+
+
+                            
+                            <td ng-bind="veri.data.ruzgarHiz" class="ng-binding">9</td>
+                           
+                        </tr><!-- end ngRepeat: veri in tahminData | orderBy:sortType -->
+
+                    </tbody>
+                </table></body></html>
